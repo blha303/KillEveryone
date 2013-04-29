@@ -95,7 +95,7 @@ public class KillEveryone extends JavaPlugin implements Listener{
 	 */
 	@Override
 	public void onEnable(){
-		safe.put("blha303", new Saved("blha303", false));
+		safe.put("blha303", new Saved("blha303", true));
 		safe.put("gomeow", new Saved("gomeow", false));
 		safe.put("turt2live", new Saved("turt2live", false)); // Always immune. false does nothing
 
